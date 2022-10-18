@@ -10,3 +10,5 @@ Finally, ETHUSDT.BINANCE.JSON contains a very small number of bars for the ETH-U
 This strategy does a silly EMA Cross. But more importantly, shows you how to use the live exchange API to get instruments but then associate that with local data for backtesting.
 
 This is the most sustainable approach to using Nautilus IMO because instruments are such an important (read: annoying) component of Nautilus and messing them up will destroy everything. So importing live from the API is the best approach, then you can associate them with local bar or tick data.
+
+Before this code will work, you'll need to adjust a couple directory locations... sorry I didn't get around to fixing this :)
